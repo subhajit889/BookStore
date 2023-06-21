@@ -11,6 +11,7 @@ import "./app.css"
 import { GlobalStyle } from './GlobalStyle'
 import { ThemeProvider } from 'styled-components'
 import Header from './component/Header'
+import Footer from './component/Footer'
 
 
 
@@ -55,6 +56,7 @@ const App = () => {
           <Route path='/cart' element={<Cart />} />
           <Route path='*' element={<Errorpage />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </ThemeProvider>
   )

@@ -38,7 +38,8 @@ const Contact = () => {
   return (
     <Wrapper>
       <h2 className='common-heading'>Contact Us</h2>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1896.0145537454482!2d88.36152362200497!3d22.576207360765796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02764d6946718f%3A0x4b06a04a38f00135!2sCollege%20Street!5e0!3m2!1sen!2sin!4v1687307793866!5m2!1sen!2sin"
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1896.0145537454482!2d88.36152362200497!3d22.576207360765796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02764d6946718f%3A0x4b06a04a38f00135!2sCollege%20Street!5e0!3m2!1sen!2sin!4v1687307793866!5m2!1sen!2sin"
         width="900"
         height="450"
         style={{ border: 0 }}
@@ -48,7 +49,7 @@ const Contact = () => {
       </iframe>
 
       <div className="container">
-        <div className="contact-from">
+        <div className="contact-form">
           <form action="" method="POST" className="contact-inputs">
 
             <input type="text"
